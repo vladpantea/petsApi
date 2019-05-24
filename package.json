@@ -1,0 +1,28 @@
+{
+  "name": "swagger-petstore",
+  "version": "1.0.0",
+  "description": "This spec is mainly for testing Petstore server and contains fake endpoints, models. Please do not use this for any other purpose. Special characters: \" \\",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "connect": "^3.2.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.0",
+    "js-yaml": "^3.3.0",
+    "mongodb": "^3.2.5",
+    "morgan": "^1.9.1",
+    "oas3-tools": "^1.0.1"
+  },
+  "devDependencies": {
+    "chakram": "^1.5.0",
+    "mocha": "^6.1.4"
+  }
+}
