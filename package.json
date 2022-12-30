@@ -28,6 +28,6 @@
     "grunt": "^1.0.4",
     "grunt-eslint": "^21.0.0",
     "load-grunt-tasks": "^5.0.0",
-    "mocha": "^6.1.4"
+    "mocha": "^10.2.0"
   }
 }
